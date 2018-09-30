@@ -12,11 +12,11 @@ var getAllUsers = function () {
 
         users.push({
             "id": id,
-            "FirstName": FirstName,
-            "LastName": LastName,
-            "Email": Email,
-            "Username": Username,
-            "Password": Password
+            "first_name": FirstName,
+            "last_name": LastName,
+            "email": Email,
+            "username": Username,
+            "password": Password
         });
     }
     return {
